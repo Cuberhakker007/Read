@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding:0;
+    cursor: none;
+}
+
+li{
+    font-size: 20px !important;
+    font-family: serif;
+    text-transform: capitalize;
+    
+}
+
+
+ol{
+    margin-left: 150px;
+    width: 200px !important;
+}
+
+.col-md-4 h2 {
+    text-align: center;
+    padding: 15px;
+    font-weight: 400;
+    font-style: oblique;
+
+}
+
+@media only screen and (max-width:400px){
+    
+    ol{
+        margin: 0 !important;
+        width: auto !important;
+    }
+
+    .col-md-4 h2{
+        text-align: start;
+        background: linear-gradient(to right, #1233, white);
+    }
+
+}
